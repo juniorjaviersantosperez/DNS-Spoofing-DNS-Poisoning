@@ -17,7 +17,7 @@ Enlace GitHub: https://github.com/juniorjaviersantosperez/DNS-Spoofing-DNS-Poiso
 -
 
 
-## 1. 🎯 Objetivo del Laboratorio
+## 1. Objetivo del Laboratorio
 
 Demostrar, en un entorno controlado con GNS3 y VMware Workstation, la técnica de ataque conocida como **DNS Spoofing (DNS Cache Poisoning)**. El objetivo central es falsificar la resolución del nombre de dominio `itla.edu.do` de modo que el tráfico legítimo de la víctima sea redirigido hacia un servidor web falso controlado por el atacante (`10.15.99.150`).
 
@@ -105,7 +105,7 @@ sudo python3 fake_server.py
 
 ---
 
-## 4. 📸 Demostración del Ataque
+## 4. Demostración del Ataque
 
 ### Paso 1 — Servidor Web Falso en Ejecución
 
