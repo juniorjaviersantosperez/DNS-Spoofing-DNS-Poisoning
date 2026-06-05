@@ -14,7 +14,7 @@ Link video: https://www.youtube.com/watch?v=I7Q85TNgc_A
 
 Enlace GitHub: https://github.com/juniorjaviersantosperez/DNS-Spoofing-DNS-Poisoning 
 
--
+
 
 
 ## 1. Objetivo del Laboratorio
@@ -34,7 +34,7 @@ Al finalizar el laboratorio, el estudiante es capaz de:
 
 ![IMAGEN1 — Topología de Red en GNS3 | Junior Javier Santos Perez | Matrícula: 2024-1599](capturas/IMAGEN1.png)
 
-> **GNS3** integrado con **VMware Workstation** · Servidor: GNS3 VM (juniorsantos-20241599) · Host: LenovoV15
+
 
 ### Tabla de Direccionamiento IP
 
