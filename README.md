@@ -111,7 +111,7 @@ sudo python3 fake_server.py
 
 El script `fake_server.py` se inicia en `SERVIDOR-KALI-1` (10.15.99.150). El servidor queda escuchando en el puerto 80 y registra la petición de la víctima (`10.15.99.50 → /`) una vez que el ataque es exitoso.
 
-![IMAGEN2 — fake_server.py activo en SERVIDOR-KALI-1 recibiendo petición de la víctima](capturas/IMAGEN2.png)
+![Topología](IMAGENES/IMAGEN2.png)
 
 ---
 
@@ -131,7 +131,7 @@ Desde la máquina atacante se ejecuta `dns_spoofing_lab.py`. El script resuelve 
 [*] Escuchando DNS queries de 10.15.99.50 (filtro: udp port 53 and src host 10.15.99.50)
 ```
 
-![IMAGEN3 — dns_spoofing_lab.py: ARP Poisoning activo y escuchando DNS queries de 10.15.99.50](capturas/IMAGEN3.png)
+![Topología](IMAGENES/IMAGEN3.png)
 
 ---
 
@@ -141,7 +141,7 @@ La víctima (`Clonekali-1`) accede a `http://itla.edu.do` en Firefox. En lugar d
 
 >  **Hora del ataque:** `2026-06-05 00:28:41`
 
-![IMAGEN4 — ATAQUE EXITOSO: La víctima accede a itla.edu.do y carga el servidor web falso (10.15.99.150)](capturas/IMAGEN4.png)
+![Topología](IMAGENES/IMAGEN4.png)
 
 ---
 
@@ -165,7 +165,7 @@ Con **Max Protection** activo:
 - Muestra advertencia de riesgo antes de usar el DNS del sistema.
 - Si el DNS seguro no está disponible, los sitios no cargan (no fallback inseguro).
 
-![IMAGEN5 — CONTRAMEDIDA: Firefox con DoH Max Protection + Cloudflare — consultas DNS cifradas](capturas/IMAGEN5.png)
+![Topología](IMAGENES/IMAGEN5.png)
 
 ---
 
@@ -196,7 +196,7 @@ Switch(config-if)#ip arp inspection trust
 ([000c.29a0.0a51/10.15.99.50/00:00:00:00:00:00/10.15.99.1/04:30:07 UTC Fri Jun 5 2026])
 ```
 
-![IMAGEN6 — CONTRAMEDIDA: DAI + DHCP Snooping en Cisco — ARPs inválidos del atacante descartados en tiempo real](capturas/IMAGEN6.png)
+![Topología](IMAGENES/IMAGEN6.png)
 
 ---
 
