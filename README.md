@@ -33,8 +33,7 @@ Al finalizar el laboratorio, el estudiante es capaz de:
 
 ## 2. Topología de Red
 
-![IMAGEN1 — Topología de Red en GNS3 | Junior Javier Santos Perez | Matrícula: 2024-1599](capturas/IMAGEN1.png)
-
+https://github.com/juniorjaviersantosperez/DNS-Spoofing-DNS-Poisoning/blob/1ae708f999efce4d8dbabd28b5df430a4f7d583c/IMAGENES/IMAGEN1.png 
 
 
 ### Tabla de Direccionamiento IP
